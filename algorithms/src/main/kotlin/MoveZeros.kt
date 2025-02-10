@@ -3,7 +3,7 @@ fun main() {
     Solution().moveZeroes(array)
 }
 
-class Solution {
+class SolutionMZ {
     fun moveZeroes(nums: IntArray){
         var writeIndex = 0
         for (readIndex in nums.indices) {

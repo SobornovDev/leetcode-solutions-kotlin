@@ -1,6 +1,6 @@
 fun main() {
     val array = readln().split(" ").map { it.toInt() }.toIntArray()
-    Solution().moveZeroes(array)
+    SolutionMZ().moveZeroes(array)
 }
 
 class SolutionMZ {
